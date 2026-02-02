@@ -269,10 +269,7 @@ body {
     display: flex;
   }
 
-  .logo {
-    font-size: 1em;
 
-  }
 
 
 
@@ -310,7 +307,7 @@ body {
   }
 
   .logo {
-    font-size: 0.95rem;
+    font-size: 0.7rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
