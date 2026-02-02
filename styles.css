@@ -56,12 +56,14 @@ body {
   gap: 2.5rem;
 }
 
+
 .nav-link {
   padding: 0.4em 0.8em;
   border: 1px solid rgba(0, 0, 0, 0.15);
   text-decoration: none;
   color: #111;
   transition: background 0.3s ease, color 0.3s ease;
+
 }
 
 .nav-link:hover {
@@ -266,6 +268,13 @@ body {
   .menu-toggle {
     display: flex;
   }
+
+  .logo {
+    font-size: 1em;
+
+  }
+
+
 
   /* MENU MOBILE (FECHADO) */
   .container2 {
