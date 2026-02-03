@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   =============================== */
   const menuToggle = document.querySelector('.menu-toggle');
   const navbar = document.querySelector('.navbar');
+  const isIphone = /iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   if (menuToggle && navbar) {
     menuToggle.addEventListener('click', () => {
@@ -84,3 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startAuto();
   }
 });
+
+
+
